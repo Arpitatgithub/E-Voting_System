@@ -1,0 +1,69 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content %}
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/static/img/Frame_5.jpg" class="d-block w-100" alt="Image 1">
+        </div>
+        <div class="carousel-item">
+            <img src="/static/img/Frame_4.png" class="d-block w-100" alt="Image 2">
+        </div>
+        <div class="carousel-item">
+            <img src="/static/img/Frame_6.jpg" class="d-block w-100" alt="Image 3">
+        </div>
+        <div class="carousel-item">
+            <img src="/static/img/Frame_5.jpg" class="d-block w-100" alt="Image 4">
+        </div>
+        <div class="carousel-item">
+            <img src="/static/img/Frame_4.png" class="d-block w-100" alt="Image 5">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- Candidate Introduction Sections -->
+<section id="candidates" class="my-5">
+    <div class="container">
+        <h2>Meet the Candidates</h2>
+        <div class="row">
+            <!-- Candidate 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/static/img/download.png" class="card-img-top" alt="Candidate 1">
+                    <div class="card-body">
+                        <h5 class="card-title">BJP</h5>
+                        <p class="card-text">Introduction to Candidate 1 goes here.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Candidate 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/static/img/download_2.png" class="card-img-top" alt="Candidate 2">
+                    <div class="card-body">
+                        <h5 class="card-title">INC</h5>
+                        <p class="card-text">Introduction to Candidate 2 goes here.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Candidate 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="/static/img/download_3.png" class="card-img-top" alt="Candidate 3">
+                    <div class="card-body">
+                        <h5 class="card-title">AAP</h5>
+                        <p class="card-text">Introduction to Candidate 3 goes here.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for all 10 candidates -->
+        </div>
+    </div>
+</section>
+{% endblock %}

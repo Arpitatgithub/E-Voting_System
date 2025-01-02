@@ -1,0 +1,383 @@
+/* static/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header a,
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+header a:hover,
+footer a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+button,
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #333;
+    color: white;
+}
+
+
+/* Style for Register Page */
+
+.register-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.page-title {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.submit-btn {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #4cae4c;
+}
+
+.login-link {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.login-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+
+/* Sections Styling */
+
+.info-section {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.info-section h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.info-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.info-section p {
+    font-size: 1em;
+    color: #666;
+}
+
+.info-section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.info-section a:hover {
+    text-decoration: underline;
+}
+
+
+/* Style for Login Page */
+
+.login-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.page-title {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.submit-btn {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #4cae4c;
+}
+
+.register-link {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+
+/* Sections Styling */
+
+.info-section {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.info-section h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.info-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.info-section p {
+    font-size: 1em;
+    color: #666;
+}
+
+.info-section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.info-section a:hover {
+    text-decoration: underline;
+}
+
+
+/* Style for Results Page */
+
+.results-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.page-title {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.results-section {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.results-section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.results-table th,
+.results-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.results-table th {
+    background-color: #5cb85c;
+    color: white;
+    font-size: 1.2em;
+}
+
+.results-table td {
+    font-size: 1.1em;
+    background-color: #fff;
+}
+
+.results-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.results-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.results-section p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+}
+
+.results-section a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.results-section a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer or additional links */
+
+#additional-links {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#additional-links a {
+    color: #5cb85c;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#additional-links a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,48 @@
+{% extends "base.html" %} {% block title %}Register{% endblock %} {% block content %}
+<div class="register-container">
+    <h1 class="page-title">Create Your Account</h1>
+
+    <!-- Section 1: Registration Form -->
+    <section id="registration-form">
+        <form method="POST" class="form">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Register" class="submit-btn">
+            </div>
+
+            <p class="login-link">Already have an account? <a href="{{ url_for('login') }}">Login here</a>.</p>
+        </form>
+    </section>
+
+    <!-- Section 2: Information for New Users -->
+    <section id="new-user-info" class="info-section">
+        <h2>Why Register?</h2>
+        <ul>
+            <li>Get access to the voting system.</li>
+            <li>Track your voting history and preferences.</li>
+            <li>Stay updated with the latest results.</li>
+        </ul>
+    </section>
+
+    <!-- Section 3: Terms of Service -->
+    <section id="terms-of-service" class="info-section">
+        <h2>Terms of Service</h2>
+        <p>By registering, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+    </section>
+
+    <!-- Section 4: Help Section -->
+    <section id="help" class="info-section">
+        <h2>Need Help?</h2>
+        <p>If you need assistance with registration, please <a href="#">contact support</a>.</p>
+    </section>
+</div>
+{% endblock %}
